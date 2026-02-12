@@ -48,15 +48,17 @@
     <hr class="orange-line" />
 
     <div class="main2">
-      <p>
-        We are really looking forward to this. <br />Please come if you can!
-      </p>
       <form name="contact" method="POST" data-netlify="true">
+        <br />
         <p>
-          <label>Name: <input type="text" name="name1" value="contact" /></label>
+          We are really looking forward to this. <br />Please come if you can!
+        </p>
+        <br />
+        <p>
+          <label>Name: <input type="text" name="name" required /></label>
         </p>
         <p>
-          <label>E-mail: <input type="email" name="email1" /></label>
+          <label>E-mail: <input type="email" name="email1" required /></label>
         </p>
         <p>Are you coming?</p>
         <input type="radio" id="yes" name="yes-no" value="yes" />  
@@ -71,7 +73,7 @@
         </p>
 
         <p>
-          <button name="button1" type="submit">Submit</button>
+          <button type="submit" class="btn btn-outline-warning">Submit</button>
         </p>
       </form>
     </div>
@@ -97,5 +99,6 @@
     </footer>
   </body>
 </html>
+
 
 
