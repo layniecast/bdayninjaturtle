@@ -48,9 +48,9 @@
     <hr class="orange-line" />
 
    <div class="main2">
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" method="POST" netlify>
         <br>
-        <h3>DO YOU DARE TO BE SPOOKED?</h3>
+        <p>We are really looking forward to this. <br />Please join us!</p>
         <br>
         <p>
           <label>NAME: <input type="text" name="name" required/></label>
@@ -58,35 +58,22 @@
         <p>
           <label>E-MAIL: <input type="email" name="email1" required/></label>
         </p>
-        <p><label for="how-many">HOW MANY GUESTS?</label>
-        <select name="quantity1" id="quanity1">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10+</optio>
-        </select>
-      </p>
+       <p>Are you coming?</p>
+        <input type="radio" id="yes" name="yes-no" value="yes" />  
+        <label for="yes-no">Yes</label>
+        <input type="radio" id="no" name="yes-no" value="no" />
+        <label for="yes-no">No</label><br />
+
         <p>
-          <label>COMMENTS: <input type="text" name="comments1" required/></label>
+          <label
+            >Message: <textarea name="message" rows="3" cols="21"></textarea>
+          </label>
         </p>
-        <br>
-        <p>ARE YOU COMING?</p>
+
         <p>
-        <input type="radio" id="yes" name="yes-no" value="yes"/>
-        <label for="yes-no">YES</label></p>
-        <p>
-        <input type="radio" id="no" name="yes-no" value="no"/>
-        <label for="yes-no">NO</label></p>
-        <p><button type="submit" class="btn btn-outline-warning">SUBMIT</button></p>
+          <button type="submit" class="btn btn-outline-warning">Submit</button>
+        </p>
       </form>
-      <br>
-      <p> PLEASE WEAR A HALLOWEEN COSTUME!</p>
     </div>
 
     <footer id="footer">
@@ -111,6 +98,7 @@
     </footer>
   </body>
 </html>
+
 
 
 
