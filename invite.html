@@ -47,36 +47,48 @@
 
     <hr class="orange-line" />
 
-    <div class="main2">
+   <div class="main2">
       <form name="contact" method="POST" data-netlify="true">
-        <br />
+        <br>
+        <h3>DO YOU DARE TO BE SPOOKED?</h3>
+        <br>
         <p>
-          We are really looking forward to this. <br />Please come if you can!
-        </p>
-        <br />
-        <p>
-          <label>Name: <input type="text" name="name" required /></label>
+          <label>NAME: <input type="text" name="name" required/></label>
         </p>
         <p>
-          <label>E-mail: <input type="email" name="email1" required /></label>
+          <label>E-MAIL: <input type="email" name="email1" required/></label>
         </p>
-        <p>Are you coming?</p>
-        <input type="radio" id="yes" name="yes-no" value="yes" />  
-        <label for="yes-no">Yes</label>
-        <input type="radio" id="no" name="yes-no" value="no" />
-        <label for="yes-no">No</label><br />
-
+        <p><label for="how-many">HOW MANY GUESTS?</label>
+        <select name="quantity1" id="quanity1">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10+</optio>
+        </select>
+      </p>
         <p>
-          <label
-            >Message: <textarea name="message" rows="3" cols="21"></textarea>
-          </label>
+          <label>COMMENTS: <input type="text" name="comments1" required/></label>
         </p>
-
+        <br>
+        <p>ARE YOU COMING?</p>
         <p>
-          <button type="submit" class="btn btn-outline-warning">Submit</button>
-        </p>
+        <input type="radio" id="yes" name="yes-no" value="yes"/>
+        <label for="yes-no">YES</label></p>
+        <p>
+        <input type="radio" id="no" name="yes-no" value="no"/>
+        <label for="yes-no">NO</label></p>
+        <p><button type="submit" class="btn btn-outline-warning">SUBMIT</button></p>
       </form>
+      <br>
+      <p> PLEASE WEAR A HALLOWEEN COSTUME!</p>
     </div>
+
     <footer id="footer">
       <div class="item4">
         <p class="last-para">
@@ -99,6 +111,7 @@
     </footer>
   </body>
 </html>
+
 
 
 
