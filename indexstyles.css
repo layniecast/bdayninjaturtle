@@ -164,6 +164,7 @@ button:active {
     margin: 0;
     height: auto;
     background-color: rgb(106, 50, 159);
+    font-size: 14px;
   }
   .center-a {
     display: flex;
@@ -201,6 +202,7 @@ button:active {
     font-size: 20px;
   }
 }
+
 
 
 
