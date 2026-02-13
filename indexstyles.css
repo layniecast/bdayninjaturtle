@@ -179,10 +179,14 @@ button:active {
 
   .parent {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    flex-wrap: no-wrap;
+  }
+
+  .center-b {
+    text-align: center;
+    font-size: 18px;
   }
 
   input {
@@ -197,6 +201,7 @@ button:active {
     font-size: 20px;
   }
 }
+
 
 
 
