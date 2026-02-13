@@ -186,7 +186,7 @@ button:active {
 
   .center-b {
     text-align: center;
-    font-size: 14px;
+    font-size: 10px;
   }
 
   input {
@@ -201,6 +201,7 @@ button:active {
     font-size: 20px;
   }
 }
+
 
 
 
